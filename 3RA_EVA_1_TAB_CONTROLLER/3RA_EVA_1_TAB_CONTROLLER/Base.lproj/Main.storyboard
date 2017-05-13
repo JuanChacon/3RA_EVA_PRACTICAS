@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UPO-QT-pQF">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome-->
+        <scene sceneID="3pH-WR-z4Y">
+            <objects>
+                <viewController id="k0F-1N-v06" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jgo-at-mkS"/>
+                        <viewControllerLayoutGuide type="bottom" id="e3e-RH-TLd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CtZ-rs-nLm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.16236530169999999" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="header_android-icons" id="IYm-2s-vPS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qqu-nq-Eao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="183"/>
+        </scene>
+        <!--Hey dude-->
+        <scene sceneID="GIW-Iw-glW">
+            <objects>
+                <viewController id="aQ4-bH-p9q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g1Z-6f-ip0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hdl-yL-0LJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="px9-dV-2Ga">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hey dude" image="ads" id="WZg-So-KCO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NMV-Ec-Ob9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="-478"/>
+        </scene>
+        <!--Hola-->
+        <scene sceneID="JRo-bT-AXb">
+            <objects>
+                <viewController id="ZhG-n7-X8e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0hy-gP-gg7"/>
+                        <viewControllerLayoutGuide type="bottom" id="79M-bd-Mbk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T5z-d0-8e3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hola" image="youarehere" id="Kbj-4V-PNq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIL-8G-bnm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765" y="-839"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="j8H-6H-c11">
+            <objects>
+                <tabBarController id="UPO-QT-pQF" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fh5-M6-9tw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="aQ4-bH-p9q" kind="relationship" relationship="viewControllers" id="nD4-Qh-4Tq"/>
+                        <segue destination="k0F-1N-v06" kind="relationship" relationship="viewControllers" id="cCS-WY-fNY"/>
+                        <segue destination="P3c-BG-6ZM" kind="relationship" relationship="viewControllers" id="BDE-1t-cSw"/>
+                        <segue destination="w1T-3G-eGj" kind="relationship" relationship="viewControllers" id="Khh-IC-kjH"/>
+                        <segue destination="ZhG-n7-X8e" kind="relationship" relationship="viewControllers" id="zqW-qz-8rR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zPQ-Pq-z3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-801" y="-147"/>
+        </scene>
+        <!--custom-->
+        <scene sceneID="eRR-Fc-FUl">
+            <objects>
+                <viewController id="P3c-BG-6ZM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WSx-6e-uua"/>
+                        <viewControllerLayoutGuide type="bottom" id="lcZ-ob-XAd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z72-H0-5vs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.89281607039999999" blue="0.71680181269999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="custom" image="ico_m_basket" id="ww1-Kl-O3V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0S-YB-uj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297" y="619"/>
+        </scene>
+        <!--morro-->
+        <scene sceneID="xVB-iL-H6c">
+            <objects>
+                <viewController id="w1T-3G-eGj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="834-Fm-Kia"/>
+                        <viewControllerLayoutGuide type="bottom" id="Foo-V0-a7d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ctB-EQ-NAU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.2458048108" green="0.41180230870000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="morro" image="ico_rating" id="hqh-He-HYW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFS-QU-SES" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-646" y="603"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ads" width="24" height="24"/>
+        <image name="header_android-icons" width="24" height="24"/>
+        <image name="ico_m_basket" width="24" height="24"/>
+        <image name="ico_rating" width="24" height="24"/>
+        <image name="youarehere" width="24" height="24"/>
+    </resources>
+</document>

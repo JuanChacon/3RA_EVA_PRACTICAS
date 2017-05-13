@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_RA_EVA_6_PERSISTENCIA2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="N5A-S9-fYO">
+                                <rect key="frame" x="18" y="161" width="564" height="31"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jxb-Me-qyP">
+                                <rect key="frame" x="18" y="201" width="564" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2Z-s9-nfi">
+                                <rect key="frame" x="20" y="380" width="91" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TSL-to-TrN">
+                                <rect key="frame" x="18" y="241" width="564" height="31"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5g-EE-3nM">
+                                <rect key="frame" x="25" y="292" width="56" height="30"/>
+                                <state key="normal" title="Guardar"/>
+                                <connections>
+                                    <action selector="btnGuardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3nx-pQ-QqT"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="niJ-JA-Js0">
+                                <rect key="frame" x="140" y="424" width="218" height="137"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20W-pD-wCC">
+                                <rect key="frame" x="20" y="330" width="31" height="30"/>
+                                <state key="normal" title="Leer"/>
+                                <connections>
+                                    <action selector="btnLeer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b7Q-yG-d5H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N5A-S9-fYO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="141" id="0vY-WR-cfP"/>
+                            <constraint firstItem="TSL-to-TrN" firstAttribute="top" secondItem="Jxb-Me-qyP" secondAttribute="bottom" constant="10" id="1N3-NG-ANE"/>
+                            <constraint firstItem="F2Z-s9-nfi" firstAttribute="top" secondItem="20W-pD-wCC" secondAttribute="bottom" constant="20" id="5Oj-dd-nFn"/>
+                            <constraint firstItem="niJ-JA-Js0" firstAttribute="top" secondItem="F2Z-s9-nfi" secondAttribute="bottom" constant="23" id="6WP-lI-uj4"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="F2Z-s9-nfi" secondAttribute="leading" id="8I9-PV-sbP"/>
+                            <constraint firstItem="Jxb-Me-qyP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9eI-fn-nLC"/>
+                            <constraint firstItem="20W-pD-wCC" firstAttribute="top" secondItem="G5g-EE-3nM" secondAttribute="bottom" constant="8" id="DAc-gp-kBC"/>
+                            <constraint firstItem="N5A-S9-fYO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GVy-xC-wp8"/>
+                            <constraint firstItem="niJ-JA-Js0" firstAttribute="leading" secondItem="F2Z-s9-nfi" secondAttribute="trailing" constant="29" id="HsM-aO-4u2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="20W-pD-wCC" secondAttribute="leading" id="KRK-E0-D0C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TSL-to-TrN" secondAttribute="trailing" id="ODI-fb-GW7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jxb-Me-qyP" secondAttribute="trailing" id="OPQ-aM-HXt"/>
+                            <constraint firstItem="G5g-EE-3nM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="Obr-SG-DlP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N5A-S9-fYO" secondAttribute="trailing" id="WhD-wq-bBs"/>
+                            <constraint firstItem="TSL-to-TrN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dhn-Tz-9ER"/>
+                            <constraint firstItem="N5A-S9-fYO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eRd-t8-Xo8"/>
+                            <constraint firstItem="G5g-EE-3nM" firstAttribute="top" secondItem="TSL-to-TrN" secondAttribute="bottom" constant="21" id="lRE-NW-G6V"/>
+                            <constraint firstItem="Jxb-Me-qyP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="osK-E9-e8U"/>
+                            <constraint firstItem="Jxb-Me-qyP" firstAttribute="top" secondItem="N5A-S9-fYO" secondAttribute="bottom" constant="10" id="ula-se-KX8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblInfo" destination="F2Z-s9-nfi" id="7Pj-aa-idV"/>
+                        <outlet property="textViedDatos" destination="niJ-JA-Js0" id="4we-oM-jZe"/>
+                        <outletCollection property="miSliders" destination="N5A-S9-fYO" collectionClass="NSMutableArray" id="MEH-Oi-eme"/>
+                        <outletCollection property="miSliders" destination="Jxb-Me-qyP" collectionClass="NSMutableArray" id="zEJ-RT-VfI"/>
+                        <outletCollection property="miSliders" destination="TSL-to-TrN" collectionClass="NSMutableArray" id="jaj-LR-2HZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="377"/>
+        </scene>
+    </scenes>
+</document>
