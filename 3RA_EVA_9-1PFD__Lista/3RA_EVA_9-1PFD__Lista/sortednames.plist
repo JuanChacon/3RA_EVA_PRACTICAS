@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+				<string>Aldo´s t-bone</string>
+                <string>Arizona</string>
+                
+	</array>
+	<key>B</key>
+	<array>
+		<string>Bakery</string>
+		<string>Barrafina</string>
+		<string>Bailey</string>
+        <string>Bourke street</string>
+	
+	</array>
+	<key>C</key>
+	<array>
+		<string>Cafe Dead End</string>
+		<string>Cafe Loisl</string>
+		<string>Cadence</string>
+        <string>Cafe Lore</string>
+        <string>Confessional</string>
+        
+		
+	</array>
+	<key>D</key>
+	<array>
+		<string>Donostia</string>
+		
+	</array>
+	<key>E</key>
+	<array>
+		
+		<string>Erizo</string>
+	</array>
+	<key>F</key>
+	<array>
+		<string>Five Leaves</string>
+		<string>Forkee Restaurant</string>
+		
+	</array>
+	<key>G</key>
+	<array>
+		
+		<string>Graham Avenuemeats</string>
+		<string>Ghazhr</string>
+		<string>Gattz</string>
+	</array>
+	<key>H</key>
+	<array>
+		<string>Haighs Chocolate</string>
+		<string>Homei</string>
+		<string>Haiden</string>
+		<string>Hailee</string>
+		<string>Hailey</string>
+		
+	</array>
+	<key>I</key>
+	<array>
+		<string>Iam</string>
+	
+	</array>
+	<key>J</key>
+	<array>
+		<string>Jaakys</string>
+		<string>Jacks Daniels</string>
+		<string>Jacks Sparrow</string>
+		
+	</array>
+	<key>K</key>
+	<array>
+		<string>Kellogs</string>
+		
+	</array>
+	<key>L</key>
+	<array>
+		<string>Louis</string>
+		<string>lam paradise</string>
+		
+	</array>
+	<key>M</key>
+	<array>
+		<string>Mcdonald</string>
+		
+	</array>
+	<key>N</key>
+	<array>
+		
+		<string>Noa</string>
+	</array>
+	<key>O</key>
+	<array>
+		<string>Olive garden</string>
+		
+	</array>
+	<key>P</key>
+	<array>
+		<string>Palomino espresso</string>
+		<string>Petiteoyster</string>
+        <string>Posatelier</string>
+	</array>
+	<key>Q</key>
+	<array>
+		<string>Quallyti</string>
+	</array>
+	<key>R</key>
+	<array>
+		<string>Royaloak</string>
+		
+	
+	</array>
+	<key>S</key>
+	<array>
+		<string>sisi´s pizza/string>
+
+	</array>
+	<key>T</key>
+	<array>
+		<string>Teakha</string>
+		<string>Thai Cafe</string>
+        <string>Traif</string>
+
+	</array>
+	<key>U</key>
+	<array>
+		<string>Upstate</string>
+		<string>Uriel</string>
+	</array>
+	<key>V</key>
+	<array>
+		<string>Valentinos</string>
+	</array>
+	<key>W</key>
+	<array>
+		<string>Waffles house</string>
+	</array>
+	<key>X</key>
+	<array>
+		<string>Xander</string>
+	</array>
+	<key>Y</key>
+	<array>
+		<string>Yadis</string>
+	</array>
+	<key>Z</key>
+	<array>
+		<string>Zaccha</string>
+		
+	</array>
+</dict>
+</plist>
